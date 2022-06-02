@@ -103,7 +103,7 @@
   transition: all .3s ease-in-out;
 }
 
-.nav-link:focus {
+.nav-link:focus-visible {
   border-bottom: 1px solid currentColor;
   outline: none;
   transition: all .3s ease-in-out;
@@ -187,7 +187,7 @@
   transition: all .2s ease-in-out;
 }
 
-.hero-left__link:focus {
+.hero-left__link:focus-visible {
   outline: 2px solid var(--link-color);
   outline-offset: 5px;
   transition: all .2s ease-in-out;
@@ -386,7 +386,7 @@
   color: var(--text-min-color);
 }
 
-.bouquets__btn:focus {
+.bouquets__btn:focus-visible {
   outline: 2px solid var(--basic-color);
   transition: all .2s ease-in-out;
 }
@@ -443,7 +443,7 @@
   margin-right: 0;
 }
 
-.catalog__link:focus {
+.catalog__link:focus-visible {
   outline: 1px solid var(--link-color);
   outline-offset: 2px;
   border-radius: 10px;
@@ -457,7 +457,6 @@
 }
 
 .catalog__item:active {
-  background-color: none;
   outline: 3px solid var(--link-color);
   outline-offset: 2px;
   border-radius: 10px;
@@ -658,7 +657,7 @@
   transition: all .2s ease-in-out;
 }
 
-.feedback__link:focus {
+.feedback__link:focus-visible {
   border-bottom: 1px solid currentColor;
   outline: none;
   transition: all .2s ease-in-out;
@@ -807,7 +806,7 @@
   color: var(--basic-color);
 }
 
-.map__item-link:focus {
+.map__item-link:focus-visible {
   border-bottom: 1px solid currentColor;
   outline: none;
   transition: all .2s ease-in-out;
@@ -871,7 +870,7 @@
   transition: all .2s ease-in-out;
 }
 
-.footer__item-link:focus {
+.footer__item-link:focus-visible {
   border-bottom: 1PX solid currentColor;
   outline: none;
   transition: all .2s ease-in-out;
@@ -908,7 +907,7 @@
   transition: all .2s ease-in-out;
 }
 
-.footer__feedback-link:focus {
+.footer__feedback-link:focus-visible {
   border-bottom: 1px solid currentColor;
   outline: none;
   transition: all .2s ease-in-out;
